@@ -1,0 +1,106 @@
+
+
+Exercício 1
+
+//let nome = prompt("qual seu nome?");
+//let cor = prompt("Qual sua cor -preferida?");
+
+//console.log("A cor favorita de " + nome + "é " + cor);
+//console.log(À cor favorita de ${nome} é ${cor};
+
+
+//const nome = "Vitor Hugo"
+
+//console.log(nome.length) // 10
+
+//const frase = "OieEeEee!"
+//const fraseMinuscula = frase.toLowerCase()
+//fraseMinuscula = oieeeeee!
+
+//const frase = "OieEeEee!"
+//const fraseMinuscula = frase.toUpperCase()
+//fraseMaiuscula = OIEEEEEE
+
+//const email = " mika@gmail.com "
+
+//console.log(email.trim())
+// "mika@gmail.com"
+
+//const frase = "Hoje comi cenoura"
+//frase.includes("cenoura") // true
+//frase.includes("batata") // false
+
+//const frase = "Hoje comi cenoura, adoro cenoura"
+//const novaFrase = frase.replaceAll("cenoura", "batata")
+// novaFrase = Hoje comi batata, adoro batata
+
+//let frase = prompt("escreva uma frase");
+
+let fraseMaiuscula = frase.toUpperCase();
+
+let novafrase = frase.replaceAll("o", "i");
+
+console.log(frase);
+
+console.log(novaFrase);
+
+console.log(fraseMaiuscula);
+
+console.log(frase.length)
+
+Arrays nada mais são do que listas de elementos. Ex. lista de CompressionStream, lista de alunos, lista de números da loteria, lista telefônica...fraseMaiuscula
+
+const listaDecompras = ["batata", "alface", "queijo"]
+
+const listaDenumerosMega = [2, 13, 26, 35, 41, 60]
+
+const meuArray = ["banana", 15, true]
+
+const listaDeCompras = ["Abacate", "Banana", "Tomate"]
+
+const segundoItem = listaDecompras[2] // "Tomate"
+
+Exercício 3 prompt + console.log
+
+const raçasCachorro = ["Pug", "Pitbull", "Rotweyller", "Bace", "Pastor Alemao"];
+
+let const = 
+
+const pokemon = ["bulbasauro", "squirtle", "charmander"]
+console.log(pokemon.length) //3
+
+const seriesBoas = ["The Big Bang Theory", "Brooklyn Nine-nine"]
+
+seriesBoas.includes("The Big Bang Theory") // true
+seriesBoas.includes("Game of Thrones") // false
+
+const numeros = [1, 2, 3]
+
+numeros.push(4)
+console.log(numeros) // [1, 2, 3, 4]
+
+numeros.push(5, 6, 7)
+console.log(numeros) // [1, 2, 3, 4, 5, 6, 7]
+
+const meusPeixes = ["Palhaço", "mandarim", "esturjão"]
+
+meusPeixes.pop()
+console.log(meusPeixes) // ["palhaço", "mandarim"]
+
+const letras = ["A", "B", "C", "D", "E", "F", "G", "H"]
+//índices (i)    0    1    2    3    4    5    6    7
+
+letras.splice(2, 1)
+//        letras = ["A", "B", "D", "E", "F", "G", "H"]
+// índices (i)       0    1    2    3    4    5    6
+
+letras.splice(3, 2) // letras = ["A", "B", "D", "G", "H"]
+
+Exercício 4 Array
+
+let numeros = [1, 2, 3, 4, 5, 6]
+numeros.push (7)
+console.log(numeros) // [1, 2, 3, 4, 5, 6, 7]
+
+numeros.pop (4, 5)
+console.log(numeros) // []
